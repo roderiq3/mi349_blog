@@ -18,11 +18,11 @@
             <h2> My name is Francis Roderique! </h2>
             <article>
                 <h4>Contact Me!</h4>
-                <form name="contact" method="POST" netlify>
+                <form name="name" method="POST" netlify>
                     <label for="name">Full Name:</label>
-                    <input id="name" type="text"><br><br>
+                    <input id="name" name="full name" type="text"><br><br>
                     <label for="email">E-mail:</label>
-                    <input id="email" type="email"><br><br>
+                    <input id="email" name="email" type="email"><br><br>
                     <label for="reason">Reason for Contact:</label>
                     <select id="reason" name="reason">
                         <option value="hi">saying hi</option>
@@ -30,7 +30,7 @@
                         <option value="interview">interested in an interview</option>
                     </select><br><br>
                     <label for="comments">Comments</label>
-                    <textarea id="comments"></textarea><br><br>
+                    <textarea id="comments" name="comments"></textarea><br><br>
                     <button type="submit">Submit</button>
                 </form>
             </article>
